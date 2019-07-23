@@ -38,6 +38,9 @@
     "metascript": "~1.0.0",
     "testjs": "~1"
   },
+  "peerDependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
   "license": "MIT",
   "scripts": {
     "test": "node node_modules/testjs/bin/testjs",
